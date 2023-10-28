@@ -1,0 +1,56 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body, button, input, select, textarea{
+  font-family: 'Heebo', sans-serif;
+}
+body{
+  background-color: #8ECAE6;
+  
+}
+header{
+  background-color: #023047;
+  height: 5rem;
+}
+
+header #navbar{
+  display: flex;
+  padding: 0 2rem; /*1 rem quivale a 16px*/
+  max-width: 1200px;
+  margin: 0 auto;
+  justify-content: space-between; /*Alinhamento horizontal*/
+  align-items: center; /*Alinhamento vertical*/
+  height: 5rem;
+}
+
+header #navbar .nav-brand{
+  text-decoration: none;
+  font-size: 1.5rem;
+  font-weight: 700;
+  color: #FB8500;
+
+}
+
+header #navbar .nav-list{
+  list-style: none;
+  display: flex;
+  align-items: center;
+  gap: 2rem;
+  
+}
+
+header #navbar .nav-list .nav-item a{
+  text-decoration: none;
+  color: #FB8500;
+  font-weight: 500;
+  font-size: 1.25rem;
+}
+
+header #navbar .nav-list .nav-item a:hover{
+  color: #FFB703;
+  transition: 0.5;
+}
+
